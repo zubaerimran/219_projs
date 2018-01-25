@@ -1,0 +1,13 @@
+PYTHON INFO
+* Python 2 as provided in Anaconda, v2.7.14
+
+REQUIRED PACKAGES
+All installed via Anaconda
+* sklearn: Version 0.19.1
+* numpy: Version 1.13.3
+* matplotlib: version 2.1.0 
+* nltk: version 3.2.4
+
+TO RUN
+python parts_a-z.py
+
