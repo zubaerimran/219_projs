@@ -1,6 +1,6 @@
 """
 Curtis Crawford, 805024638
-Abdullah-Al-Zubaer Imran, 
+Abdullah-Al-Zubaer Imran, 804733867 
 
 EE219, Winter 2018
 Project 1
@@ -54,7 +54,7 @@ plt.show()
 
 #part b
 #include the stemmer in the countvectorizer class
-stemmer = nltk.stem.porter.PorterStemmer()
+stemmer = nltk.stem.snowball.SnowballStemmer()    #Snowball stemmer performs better than Porter stemmer
 class stemCV(text.CountVectorizer):
     def build_analyzer(self):
         analyzer = super(stemCV, self).build_analyzer()
