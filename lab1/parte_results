@@ -1,0 +1,17 @@
+Heavy margin:
+Confusion matrix:
+[[1508   52]
+ [  28 1562]]
+Accuracy:  0.974603174603
+Precision: 0.967781908302
+Recall:    0.982389937107
+
+
+
+Soft Margin:
+Confusion matrix:
+[[   0 1560]
+ [   0 1590]]
+Accuracy:  0.504761904762
+Precision: 0.504761904762
+Recall:    1.0

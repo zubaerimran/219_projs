@@ -9,5 +9,11 @@ All installed via Anaconda
 * nltk: version 3.2.4
 
 TO RUN
-python parts_a-z.py
+To run parts a,b, d with a specific min_df:
+	python parts_a-d.py <min_df_value>
 
+To run part c:
+	python part_c.py <min_df_value>
+
+To run parts e-i with a specific min_df:
+	python parts_e-i.py <min_df_value>
