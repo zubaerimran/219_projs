@@ -1,0 +1,44 @@
+comp.sys.ibm.pc.hardware:
+	0th most common item is: scsi
+	1th most common item is: drive
+	2th most common item is: edu
+	3th most common item is: ide
+	4th most common item is: use
+	5th most common item is: line
+	6th most common item is: com
+	7th most common item is: subject
+	8th most common item is: organ
+	9th most common item is: card
+comp.sys.mac.hardware:
+	0th most common item is: edu
+	1th most common item is: mac
+	2th most common item is: line
+	3th most common item is: subject
+	4th most common item is: organ
+	5th most common item is: quadra
+	6th most common item is: use
+	7th most common item is: appl
+	8th most common item is: simm
+	9th most common item is: scsi
+misc.forsale:
+	0th most common item is: edu
+	1th most common item is: 00
+	2th most common item is: line
+	3th most common item is: sale
+	4th most common item is: subject
+	5th most common item is: organ
+	6th most common item is: post
+	7th most common item is: new
+	8th most common item is: com
+	9th most common item is: univers
+soc.religion.christian:
+	0th most common item is: god
+	1th most common item is: christian
+	2th most common item is: edu
+	3th most common item is: jesu
+	4th most common item is: church
+	5th most common item is: subject
+	6th most common item is: peopl
+	7th most common item is: line
+	8th most common item is: say
+	9th most common item is: christ
