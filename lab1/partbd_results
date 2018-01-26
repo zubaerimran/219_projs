@@ -1,0 +1,5 @@
+min_df=2 TFxIDF size: (4732, 25335)
+min_df=2 after lsi: (4732, 50)
+
+min_df=5 TFxIDF size: (4732, 10691)
+min_df=5 after lsi: (4732, 50)

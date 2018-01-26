@@ -15,3 +15,18 @@ Confusion matrix:
 Accuracy:  0.504761904762
 Precision: 0.504761904762
 Recall:    1.0
+This run will use min_df=5
+Part E heavy:
+Confusion matrix: 
+[[1512   48]
+ [  37 1553]]
+Accuracy:  0.973015873016
+Precision: 0.970018738289
+Recall:    0.976729559748
+Part E soft:
+Confusion matrix: 
+[[   0 1560]
+ [   0 1590]]
+Accuracy:  0.504761904762
+Precision: 0.504761904762
+Recall:    1.0

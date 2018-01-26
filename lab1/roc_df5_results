@@ -1,0 +1,111 @@
+This run will use min_df=5
+Part E heavy:
+Confusion matrix: 
+[[1502   58]
+ [  26 1564]]
+Accuracy:  0.973333333333
+Precision: 0.964241676942
+Recall:    0.983647798742
+-----------------------------------
+
+
+Part E soft:
+Confusion matrix: 
+[[   0 1560]
+ [   0 1590]]
+Accuracy:  0.504761904762
+Precision: 0.504761904762
+Recall:    1.0
+-----------------------------------
+
+
+Cross validation results for k=-3
+Confusion matrix: 
+[[   0 2343]
+ [   0 2389]]
+Accuracy:  0.504860524091
+Precision: 0.504860524091
+Recall:    1.0
+-----------------------------------
+
+
+Cross validation results for k=-2
+Confusion matrix: 
+[[   7 2336]
+ [   0 2389]]
+Accuracy:  0.506339814032
+Precision: 0.505608465608
+Recall:    1.0
+-----------------------------------
+
+
+Cross validation results for k=-1
+Confusion matrix: 
+[[2229  114]
+ [  55 2334]]
+Accuracy:  0.964285714286
+Precision: 0.953431372549
+Recall:    0.976977814985
+-----------------------------------
+
+
+Cross validation results for k=0
+Confusion matrix: 
+[[2267   76]
+ [  61 2328]]
+Accuracy:  0.971048182587
+Precision: 0.968386023295
+Recall:    0.974466303893
+-----------------------------------
+
+
+Cross validation results for k=1
+Confusion matrix: 
+[[2280   63]
+ [  63 2326]]
+Accuracy:  0.973372781065
+Precision: 0.973629133529
+Recall:    0.973629133529
+-----------------------------------
+
+
+Cross validation results for k=2
+Confusion matrix: 
+[[2282   61]
+ [  59 2330]]
+Accuracy:  0.974640743872
+Precision: 0.974487662066
+Recall:    0.975303474257
+-----------------------------------
+
+
+Naive Bayes classifier and NMF decomposition:
+Confusion matrix: 
+[[1418  142]
+ [  23 1567]]
+Accuracy:  0.947619047619
+Precision: 0.916910473961
+Recall:    0.985534591195
+-----------------------------------
+
+
+Logistic Regression with l2 penalty:
+Confusion matrix: 
+[[1492   68]
+ [  34 1556]]
+Accuracy:  0.967619047619
+Precision: 0.958128078818
+Recall:    0.978616352201
+-----------------------------------
+
+
+Logistic Regression with l1 penalty:
+Confusion matrix: 
+[[1494   66]
+ [  37 1553]]
+Accuracy:  0.967301587302
+Precision: 0.95923409512
+Recall:    0.976729559748
+-----------------------------------
+
+
