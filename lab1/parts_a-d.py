@@ -35,17 +35,22 @@ trainset = fetch_20newsgroups(subset='train', categories=categories, shuffle=Tru
 testset = fetch_20newsgroups(subset='test', categories=categories, shuffle=True, random_state=42);
 
 #plot the histogram for part a
-plt.hist(trainset.target, bins=range(min(trainset.target), (max(trainset.target) + 2)))
-plt.xlabel('Article target number')
-plt.ylabel('Number of articles target number')
-plt.title('Histogram of Article distribution, training set')
+ind = np.arange(8)
+plt.hist(trainset.target, bins=range(min(trainset.target), (max(trainset.target))+2), width = 0.8)
+plt.xlabel('Subclasses of Computer technology and Recreational activity')
+plt.ylabel('Number of documents')
+plt.xticks(ind, categories, fontsize = 10, rotation = 30, verticalalignment = 'top')
+plt.title('Histogram of the number of training documents per class')
+
+plt.figure()
+
+plt.hist(testset.target, bins=range(min(testset.target), (max(testset.target))+2), width = 0.8)
+plt.xlabel('Subclasses of Computer technology and Recreational activity')
+plt.ylabel('Number of documents')
+plt.xticks(ind, categories, fontsize = 10, rotation = 30, verticalalignment = 'top')
+plt.title('Histogram of the number of testing documents per class')
 plt.show()
 
-plt.hist(testset.target, bins=range(min(testset.target), (max(testset.target) + 2)))
-plt.xlabel('Article target number')
-plt.ylabel('Number of articles target number')
-plt.title('Histogram of Article distribution, testing set')
-plt.show()
 
 #part b
 #include the stemmer in the countvectorizer class
