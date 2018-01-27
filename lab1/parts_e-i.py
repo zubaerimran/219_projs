@@ -167,7 +167,8 @@ for roc in global_roc:
 
 plt.grid(color='0.7', linestyle='--', linewidth=1)
 
-plt.axis([-0.1, 1.1, 0.0, 1.05])
+#plt.axis([-0.1, 1.1, 0.0, 1.05])
+plt.axis([0.0, 0.2, 0.7, 1.05])
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
 

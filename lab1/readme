@@ -17,3 +17,6 @@ To run part c:
 
 To run parts e-i with a specific min_df:
 	python parts_e-i.py <min_df_value>
+
+To run part j code with a specific min_df:
+	python part_j.py <min_df_value>

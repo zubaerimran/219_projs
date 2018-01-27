@@ -1,0 +1,37 @@
+This run will use min_df=2
+One against one:
+Confusion matrix: 
+[[333  42  17   0]
+ [ 54 308  23   0]
+ [ 28  15 346   1]
+ [ 11   1   5 381]]
+Accuracy:  0.874121405751
+Precision: 0.874121405751
+Recall:    0.874121405751
+-----------------------------------
+
+
+One against all:
+Confusion matrix: 
+[[320  49  22   1]
+ [ 30 322  32   1]
+ [ 22  14 353   1]
+ [  6   1   2 389]]
+Accuracy:  0.884345047923
+Precision: 0.884345047923
+Recall:    0.884345047923
+-----------------------------------
+
+
+Naive Bayes classifier and NMF decomposition:
+Confusion matrix: 
+[[311  35  39   7]
+ [112 218  46   9]
+ [ 46   5 333   6]
+ [  0   0   4 394]]
+Accuracy:  0.802555910543
+Precision: 0.802555910543
+Recall:    0.802555910543
+-----------------------------------
+
+
