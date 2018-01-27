@@ -130,8 +130,8 @@ pipe.set_params(clf=new_clf)
 fit_predict_plot_roc(pipe, trainset, train_target, testset, test_target)
 
 #part f use built in cross val to generate predictions too!
-for i in range(-3, 3):
-    from sklearn.model_selection import cross_val_predict
+from sklearn.model_selection import cross_val_predict
+for i in range(-3, 4):      #4 to actually test k=3
     new_clf = SVC(kernel='linear', C=(10**i), probability=True)
     pipe.set_params(clf=new_clf)
     pred_res = cross_val_predict(pipe, trainset, train_target, cv=5)
@@ -167,8 +167,8 @@ for roc in global_roc:
 
 plt.grid(color='0.7', linestyle='--', linewidth=1)
 
-#plt.axis([-0.1, 1.1, 0.0, 1.05])
-plt.axis([0.0, 0.2, 0.7, 1.05])
+plt.axis([-0.1, 1.1, 0.0, 1.05])
+#plt.axis([0.0, 0.2, 0.7, 1.05])
 plt.xlabel('False Positive Rate')
 plt.ylabel('True Positive Rate')
 

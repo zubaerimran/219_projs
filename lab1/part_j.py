@@ -68,8 +68,8 @@ def fit_predict_plot_roc(pipe, train_data, train_label, test_data, test_label):
     print "Confusion matrix: "
     print str(confusion_matrix(test_label, pred_res))
     print "Accuracy:  " + str(accuracy_score(test_label, pred_res))
-    print "Precision: " + str(precision_score(test_label, pred_res, average="micro"))
-    print "Recall:    " + str(recall_score(test_label, pred_res, average="micro"))
+    print "Precision: " + str(precision_score(test_label, pred_res, average=None))
+    print "Recall:    " + str(recall_score(test_label, pred_res, average=None))
     print "-----------------------------------"
     print "\n"
     return pipe
